@@ -361,7 +361,7 @@ life_exp <- life_exp +
 
 ###### Combine the three figures into one with `patchwork`
 
-```{r}
+```{r, fig.width = 8, fig.height = 6, fig.align = "center"}
 #| label: fig-variables
 #| fig-cap: "EJ Screen variables by HOLC grade. (A) % low income, (B) percentile for PM 2.5, (C) percentile for low life expectancy. All values represent the mean value of each EJ Screen variable by HOLC grade. Looking at the three figures, it is clear that areas with lower HOLC grades have higher % low income, higher PM 2.5 percentiles, and higher low life expectancy percentiles."
 #| code-fold: true

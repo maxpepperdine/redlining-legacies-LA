@@ -5,15 +5,25 @@ This repository is from an assignment completed in EDS 223 (Geospatial Analysis 
 
 ## Repository organization description
 ```
-├── HW2_files
-|   └── figure-HTML
-|       └── fig-birds-1.png          # figure of % bird observations by HOLC grade
-|       └── fig-variables-1.png      # figure of EJ screen variables by HOLC grade
-|   └── libs                         # other generated files from rendering the .qmd file
-├── HW2.html                         # FINAL REPORT, polished Quarto doc of the entire analysis
-├── HW2.qmd                          # Quarto markdown doc used to generate the final report
-├── README.md                        # description of repo
+├── scripts 
+|   └── redlining_legacies_files
+|       └── figure-HTML
+|           └── fig-birds-1.png          # figure of % bird observations by HOLC grade
+|           └── fig-variables-1.png      # figure of EJ screen variables by HOLC grade
+|       └── libs                         # other generated files from rendering the .qmd file
+|   └── redlining_legacies.html          # FINAL REPORT, rendered html of the analysis 
+|   └── redlining_legacies.qmd           # Quarto markdown doc used to generate the final report
+├── .gitignore                           # files to ignore when pushing to GitHub 
+├── README.md                            # description of repository
+├── redlining-legacies-LA.Rproj          # R project file
 ```
+
+## Skills
+
+The repository demonstrates the following skills:
+
+- data wrangling and manipulation of vector data to build multi-layer maps using the `sf` and `dplyr` packages
+- building effective, responsible, accessible, and aesthetically-pleasing maps using the `tmap` package
 
 ## Data access
 All relevant data available [here](https://drive.google.com/file/d/14CauXFZkVh_6z2Euq0m1Sq1kHQ31fiMk/view?usp=drive_link). Sourced from a shared course Google Drive, and imported into RStudio using the `here`, `sf`, and `terra` packages. 
