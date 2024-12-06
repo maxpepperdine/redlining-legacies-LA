@@ -28,6 +28,18 @@ The repository demonstrates the following skills:
 ## Data access
 All relevant data available [here](https://drive.google.com/file/d/14CauXFZkVh_6z2Euq0m1Sq1kHQ31fiMk/view?usp=drive_link). Sourced from a shared course Google Drive, and imported into RStudio using the `here`, `sf`, and `terra` packages. 
 
+The data was too large to be uploaded to GitHub, but once downloaded, your repository should have the following structure:
+
+```
+redlining-legacies-LA
+├── *folders/files listed above*    
+│
+├── data
+|   └── ejscreen
+|   └── gbif-birds-LA
+|   └── mapping-inequality
+```
+
 ## Acknowledgements 
 This assignment was created and organized Ruth Oliver, an Assistant Professor at the Bren School and the instructor for EDS 223. EDS 223 (Geospatial Analysis & Remote Sensing) is offered in the Masters of Environmental Data Science (MEDS) program at the Bren School. 
 
